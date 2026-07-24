@@ -119860,7 +119860,7 @@ function drawChart(canvas, series, reservoir) {
     });
     ctx.stroke();
     huludunPoints.forEach((point) => {
-      ctx.fillStyle = "#d97706";
+      ctx.fillStyle = reservoir.color;
       ctx.beginPath();
       ctx.arc(point.x, point.yHuludun, 4, 0, Math.PI * 2);
       ctx.fill();
@@ -119868,7 +119868,7 @@ function drawChart(canvas, series, reservoir) {
       ctx.beginPath();
       ctx.arc(point.x, point.yHuludun, 1.8, 0, Math.PI * 2);
       ctx.fill();
-      ctx.fillStyle = "#d97706";
+      ctx.fillStyle = reservoir.color;
     });
   }
 
