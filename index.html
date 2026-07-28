@@ -51256,8 +51256,56 @@ window.RESERVOIR_DATA = {
       "storage": 16859.176515,
       "storagePercent": 92.86273091003856,
       "rainfall": 0.0,
-      "inflow": 230.37,
-      "outflow": 254.543
+      "inflow": 205.202,
+      "outflow": 293.601
+    },
+    {
+      "date": "2026-07-25",
+      "reservoirId": "deji",
+      "reservoir": "德基水庫",
+      "basin": "大甲溪",
+      "waterLevel": 1404.65,
+      "storage": 16774.66,
+      "storagePercent": 92.3972019808577,
+      "rainfall": 0.0,
+      "inflow": 213.391,
+      "outflow": 257.465
+    },
+    {
+      "date": "2026-07-26",
+      "reservoirId": "deji",
+      "reservoir": "德基水庫",
+      "basin": "大甲溪",
+      "waterLevel": 1404.48,
+      "storage": 16706.48,
+      "storagePercent": 92.02165688897179,
+      "rainfall": 0.0,
+      "inflow": 202.948,
+      "outflow": 122.754
+    },
+    {
+      "date": "2026-07-27",
+      "reservoirId": "deji",
+      "reservoir": "德基水庫",
+      "basin": "大甲溪",
+      "waterLevel": 1404.78,
+      "storage": 16826.94,
+      "storagePercent": 92.68516762186378,
+      "rainfall": 0.0,
+      "inflow": 205.07,
+      "outflow": 64.034
+    },
+    {
+      "date": "2026-07-28",
+      "reservoirId": "deji",
+      "reservoir": "德基水庫",
+      "basin": "大甲溪",
+      "waterLevel": 1405.13,
+      "storage": 16968.332052,
+      "storagePercent": 93.46397506041289,
+      "rainfall": 0.0,
+      "inflow": 205.07,
+      "outflow": 64.034
     },
     {
       "date": "2015-01-01",
@@ -101931,9 +101979,57 @@ window.RESERVOIR_DATA = {
       "waterLevel": 300.08,
       "storage": 11583.91,
       "storagePercent": 100.0,
-      "rainfall": 0.5,
-      "inflow": 265.33,
-      "outflow": 265.34
+      "rainfall": 0.0,
+      "inflow": 267.67,
+      "outflow": 267.73
+    },
+    {
+      "date": "2026-07-25",
+      "reservoirId": "liyutan",
+      "reservoir": "鯉魚潭水庫",
+      "basin": "大安溪",
+      "waterLevel": 300.09,
+      "storage": 11588.32,
+      "storagePercent": 100.0,
+      "rainfall": 0.0,
+      "inflow": 272.33,
+      "outflow": 272.35
+    },
+    {
+      "date": "2026-07-26",
+      "reservoirId": "liyutan",
+      "reservoir": "鯉魚潭水庫",
+      "basin": "大安溪",
+      "waterLevel": null,
+      "storage": null,
+      "storagePercent": null,
+      "rainfall": null,
+      "inflow": null,
+      "outflow": null
+    },
+    {
+      "date": "2026-07-27",
+      "reservoirId": "liyutan",
+      "reservoir": "鯉魚潭水庫",
+      "basin": "大安溪",
+      "waterLevel": 300.09,
+      "storage": 11588.32,
+      "storagePercent": 100.0,
+      "rainfall": 10.0,
+      "inflow": 282.61,
+      "outflow": 282.6
+    },
+    {
+      "date": "2026-07-28",
+      "reservoirId": "liyutan",
+      "reservoir": "鯉魚潭水庫",
+      "basin": "大安溪",
+      "waterLevel": 300.09,
+      "storage": 11588.32,
+      "storagePercent": 100.0,
+      "rainfall": 10.0,
+      "inflow": 282.61,
+      "outflow": 282.6
     }
   ],
   "huludunActualIntake": [
@@ -118815,35 +118911,35 @@ window.RESERVOIR_DATA = {
     },
     {
       "date": "2026-07-21",
-      "value": 13.529
+      "value": 13.447
     },
     {
       "date": "2026-07-22",
-      "value": null
+      "value": 13.386
     },
     {
       "date": "2026-07-23",
-      "value": null
+      "value": 13.592
     },
     {
       "date": "2026-07-24",
-      "value": null
+      "value": 13.672
     },
     {
       "date": "2026-07-25",
-      "value": null
+      "value": 13.553
     },
     {
       "date": "2026-07-26",
-      "value": null
+      "value": 13.418
     },
     {
       "date": "2026-07-27",
-      "value": null
+      "value": 9.438
     },
     {
       "date": "2026-07-28",
-      "value": null
+      "value": 4.57
     },
     {
       "date": "2026-07-29",
@@ -119849,9 +119945,10 @@ function drawChart(canvas, series, reservoir) {
   ctx.stroke();
 
   if (shouldDrawHuludunLine(reservoir)) {
+    const huludunColor = "#d97706";
     const huludunPoints = points.filter((point) => point.item.huludunActualIntake !== null && point.item.huludunActualIntake !== undefined);
-    ctx.strokeStyle = "#d97706";
-    ctx.fillStyle = "#d97706";
+    ctx.strokeStyle = huludunColor;
+    ctx.fillStyle = huludunColor;
     ctx.lineWidth = 2.5;
     ctx.beginPath();
     huludunPoints.forEach((point, index) => {
@@ -119860,7 +119957,7 @@ function drawChart(canvas, series, reservoir) {
     });
     ctx.stroke();
     huludunPoints.forEach((point) => {
-      ctx.fillStyle = reservoir.color;
+      ctx.fillStyle = huludunColor;
       ctx.beginPath();
       ctx.arc(point.x, point.yHuludun, 4, 0, Math.PI * 2);
       ctx.fill();
@@ -119868,7 +119965,7 @@ function drawChart(canvas, series, reservoir) {
       ctx.beginPath();
       ctx.arc(point.x, point.yHuludun, 1.8, 0, Math.PI * 2);
       ctx.fill();
-      ctx.fillStyle = reservoir.color;
+      ctx.fillStyle = huludunColor;
     });
   }
 
@@ -120003,6 +120100,7 @@ function roundRect(ctx, x, y, width, height, radius) {
 
 function chartCard(reservoir) {
   const barLabel = barLabelForReservoir(reservoir, true);
+  const barLegendLabel = isRiverFlowDashboard ? barLabel : `${reservoir.name} ${barLabel}`;
   const huludunLegend = shouldDrawHuludunLine(reservoir)
     ? `<span class="legendItem"><span class="legendLine" style="background:#d97706"></span>葫蘆墩圳灌區實際取水量</span>`
     : "";
@@ -120020,7 +120118,7 @@ function chartCard(reservoir) {
         <div class="chartSide">
           <div class="legend">
             <span class="legendItem"><span class="legendLine" style="background:${reservoir.color}"></span>${reservoir.name} 蓄水率 (%)</span>
-            <span class="legendItem"><span class="legendBar" style="background:${reservoir.barColor}"></span>${reservoir.name} ${barLabel}</span>
+            <span class="legendItem"><span class="legendBar" style="background:${reservoir.barColor}"></span>${barLegendLabel}</span>
             ${huludunLegend}
           </div>
           ${intakeNames}
