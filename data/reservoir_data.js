@@ -50753,8 +50753,32 @@ window.RESERVOIR_DATA = {
       "storage": 16968.332052,
       "storagePercent": 93.46397506041289,
       "rainfall": 0.0,
-      "inflow": 205.07,
-      "outflow": 64.034
+      "inflow": 186.569,
+      "outflow": 202.731
+    },
+    {
+      "date": "2026-07-29",
+      "reservoirId": "deji",
+      "reservoir": "德基水庫",
+      "basin": "大甲溪",
+      "waterLevel": 1405.03,
+      "storage": 16927.83,
+      "storagePercent": 93.24088402433328,
+      "rainfall": 3.5,
+      "inflow": 189.369,
+      "outflow": 157.03
+    },
+    {
+      "date": "2026-07-30",
+      "reservoirId": "deji",
+      "reservoir": "德基水庫",
+      "basin": "大甲溪",
+      "waterLevel": 1405.16,
+      "storage": 16980.51,
+      "storagePercent": 93.53105292196527,
+      "rainfall": 3.5,
+      "inflow": 189.369,
+      "outflow": 157.03
     },
     {
       "date": "2015-01-01",
@@ -101476,9 +101500,33 @@ window.RESERVOIR_DATA = {
       "waterLevel": 300.09,
       "storage": 11588.32,
       "storagePercent": 100.0,
-      "rainfall": 10.0,
-      "inflow": 282.61,
-      "outflow": 282.6
+      "rainfall": 0.5,
+      "inflow": 259.37,
+      "outflow": 263.8
+    },
+    {
+      "date": "2026-07-29",
+      "reservoirId": "liyutan",
+      "reservoir": "鯉魚潭水庫",
+      "basin": "大安溪",
+      "waterLevel": 300.06,
+      "storage": 11575.08,
+      "storagePercent": 100.0,
+      "rainfall": 0.0,
+      "inflow": 234.58,
+      "outflow": 238.96
+    },
+    {
+      "date": "2026-07-30",
+      "reservoirId": "liyutan",
+      "reservoir": "鯉魚潭水庫",
+      "basin": "大安溪",
+      "waterLevel": 300.05,
+      "storage": 11570.67,
+      "storagePercent": 100.0,
+      "rainfall": 0.0,
+      "inflow": 234.58,
+      "outflow": 238.96
     }
   ],
   "huludunActualIntake": [
@@ -118388,15 +118436,15 @@ window.RESERVOIR_DATA = {
     },
     {
       "date": "2026-07-28",
-      "value": 4.57
+      "value": 8.676
     },
     {
       "date": "2026-07-29",
-      "value": null
+      "value": 13.919
     },
     {
       "date": "2026-07-30",
-      "value": null
+      "value": 13.911
     },
     {
       "date": "2026-07-31",
@@ -135922,15 +135970,15 @@ window.RESERVOIR_DATA = {
     },
     {
       "date": "2026-07-28",
-      "value": 4.292
+      "value": 4.878
     },
     {
       "date": "2026-07-29",
-      "value": null
+      "value": 5.065
     },
     {
       "date": "2026-07-30",
-      "value": null
+      "value": 3.71
     },
     {
       "date": "2026-07-31",
