@@ -50776,9 +50776,21 @@
       "waterLevel": 1405.16,
       "storage": 16980.51,
       "storagePercent": 93.53105292196527,
-      "rainfall": 3.5,
-      "inflow": 189.369,
-      "outflow": 157.03
+      "rainfall": 10.0,
+      "inflow": 195.495872,
+      "outflow": 150.918887
+    },
+    {
+      "date": "2026-07-31",
+      "reservoirId": "deji",
+      "reservoir": "德基水庫",
+      "basin": "大甲溪",
+      "waterLevel": 1405.25,
+      "storage": 17017.09,
+      "storagePercent": 93.7325407404045,
+      "rainfall": 10.0,
+      "inflow": 195.495872,
+      "outflow": 150.918887
     },
     {
       "date": "2015-01-01",
@@ -101527,6 +101539,18 @@
       "rainfall": 0.0,
       "inflow": 234.58,
       "outflow": 238.96
+    },
+    {
+      "date": "2026-07-31",
+      "reservoirId": "liyutan",
+      "reservoir": "鯉魚潭水庫",
+      "basin": "大安溪",
+      "waterLevel": 300.05,
+      "storage": 11570.67,
+      "storagePercent": 100.0,
+      "rainfall": 0.0,
+      "inflow": 234.58,
+      "outflow": 238.96
     }
   ],
   "huludunActualIntake": [
@@ -118444,11 +118468,11 @@
     },
     {
       "date": "2026-07-30",
-      "value": 13.911
+      "value": 13.594
     },
     {
       "date": "2026-07-31",
-      "value": null
+      "value": 13.774
     },
     {
       "date": "2026-08-01",
@@ -135978,11 +136002,11 @@
     },
     {
       "date": "2026-07-30",
-      "value": 3.71
+      "value": 3.879
     },
     {
       "date": "2026-07-31",
-      "value": null
+      "value": 4.902
     },
     {
       "date": "2026-08-01",
