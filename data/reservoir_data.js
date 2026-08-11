@@ -118780,7 +118780,7 @@ window.RESERVOIR_DATA = {
     },
     {
       "date": "2026-08-11",
-      "value": 13.81
+      "value": 13.359
     },
     {
       "date": "2026-08-12",
@@ -136314,7 +136314,7 @@ window.RESERVOIR_DATA = {
     },
     {
       "date": "2026-08-11",
-      "value": 5.25
+      "value": 5.831
     },
     {
       "date": "2026-08-12",
