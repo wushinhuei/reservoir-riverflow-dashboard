@@ -50908,9 +50908,21 @@ window.RESERVOIR_DATA = {
       "waterLevel": 1404.6,
       "storage": 16754.59,
       "storagePercent": 92.2866535796528,
-      "rainfall": 40.0,
-      "inflow": 392.803,
-      "outflow": 189.685
+      "rainfall": 3.0,
+      "inflow": 285.603,
+      "outflow": 0.0
+    },
+    {
+      "date": "2026-08-11",
+      "reservoirId": "deji",
+      "reservoir": "德基水庫",
+      "basin": "大甲溪",
+      "waterLevel": 1405.26,
+      "storage": 17021.16,
+      "storagePercent": 93.7549588765731,
+      "rainfall": 3.0,
+      "inflow": 285.603,
+      "outflow": 0.0
     },
     {
       "date": "2015-01-01",
@@ -101776,9 +101788,9 @@ window.RESERVOIR_DATA = {
       "waterLevel": 300.08,
       "storage": 11583.91,
       "storagePercent": 100.0,
-      "rainfall": 25.5,
-      "inflow": 206.58,
-      "outflow": 188.98
+      "rainfall": 71.5,
+      "inflow": 235.87,
+      "outflow": 253.55
     },
     {
       "date": "2026-08-10",
@@ -101788,9 +101800,21 @@ window.RESERVOIR_DATA = {
       "waterLevel": 299.95,
       "storage": 11527.04,
       "storagePercent": 99.8133107043278,
-      "rainfall": 25.5,
-      "inflow": 206.58,
-      "outflow": 188.98
+      "rainfall": 1.5,
+      "inflow": 132.45,
+      "outflow": 132.49
+    },
+    {
+      "date": "2026-08-11",
+      "reservoirId": "liyutan",
+      "reservoir": "鯉魚潭水庫",
+      "basin": "大安溪",
+      "waterLevel": 300.06,
+      "storage": 11575.08,
+      "storagePercent": 100.0,
+      "rainfall": 1.5,
+      "inflow": 132.45,
+      "outflow": 132.49
     }
   ],
   "huludunActualIntake": [
@@ -118752,11 +118776,11 @@ window.RESERVOIR_DATA = {
     },
     {
       "date": "2026-08-10",
-      "value": 1.117
+      "value": 9.193
     },
     {
       "date": "2026-08-11",
-      "value": null
+      "value": 13.81
     },
     {
       "date": "2026-08-12",
@@ -136286,11 +136310,11 @@ window.RESERVOIR_DATA = {
     },
     {
       "date": "2026-08-10",
-      "value": 3.015
+      "value": 4.477
     },
     {
       "date": "2026-08-11",
-      "value": null
+      "value": 5.25
     },
     {
       "date": "2026-08-12",
